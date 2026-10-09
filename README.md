@@ -6,6 +6,16 @@ Distribution repository for **Luan**, a native macOS menu bar app that provides 
 - Download: [luan.fuyo.app/download](https://luan.fuyo.app/download) · [latest Luan.dmg](https://github.com/onepiece-studio/Luan-macOS/releases/latest/download/Luan.dmg) · [all releases](https://github.com/onepiece-studio/Luan-macOS/releases)
 - Sparkle feed: [appcast.xml](https://raw.githubusercontent.com/onepiece-studio/Luan-macOS/main/appcast.xml)
 
+## Install with Homebrew
+
+As an alternative to the DMG, install Luan with [Homebrew](https://brew.sh):
+
+```sh
+brew install --cask onepiece-studio/tap/luan
+```
+
+Homebrew adds the `onepiece-studio/tap` tap automatically. Luan installed this way still updates itself in the app through Sparkle. To uninstall, run `brew uninstall --cask luan`.
+
 ## Repository scope
 
 This repository contains release metadata and approved distribution assets. **Application source code is not stored here.** App updates use the public HTTPS feed and release assets; GitHub credentials are never embedded in the app.

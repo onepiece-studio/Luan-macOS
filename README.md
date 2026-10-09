@@ -14,7 +14,7 @@ Luan targets Apple Silicon Macs running macOS 26 or later. Its bundle identifier
 
 ## Test builds
 
-Current releases are development test builds with simulated license activation. Any nonempty email and license input can activate test Pro; this is not a purchase entitlement. Production builds exclude the simulation path. These ad-hoc signed builds have not been Apple-notarized.
+Current releases are development test builds with simulated license activation. Any nonempty email and license input can activate test Pro; this is not a purchase entitlement. Production builds exclude the simulation path. Since Build 35, Luan is signed with an Apple Developer ID and notarized by Apple, so the downloaded app opens after the standard macOS first-launch confirmation.
 
 Each release is a regular (non-prerelease) GitHub Release with a fixed `Luan.dmg` asset for first-time installation and a build-numbered ZIP for in-app updates.
 

@@ -3,7 +3,7 @@
 Distribution repository for **Luan**, a native macOS menu bar app that provides sound cues for coding workflows.
 
 - Website: [luan.fuyo.app](https://luan.fuyo.app)
-- Downloads: [Releases](https://github.com/onepiece-studio/Luan-macOS/releases) · [latest Luan.dmg](https://github.com/onepiece-studio/Luan-macOS/releases/latest/download/Luan.dmg)
+- Download: [luan.fuyo.app/download](https://luan.fuyo.app/download) · [latest Luan.dmg](https://github.com/onepiece-studio/Luan-macOS/releases/latest/download/Luan.dmg) · [all releases](https://github.com/onepiece-studio/Luan-macOS/releases)
 - Sparkle feed: [appcast.xml](https://raw.githubusercontent.com/onepiece-studio/Luan-macOS/main/appcast.xml)
 
 ## Repository scope
@@ -18,4 +18,8 @@ Current releases are development test builds with simulated license activation. 
 
 Each release is a regular (non-prerelease) GitHub Release with a fixed `Luan.dmg` asset for first-time installation and a build-numbered ZIP for in-app updates.
 
-Build 15 is the first build distributed from this repository. Builds 10–14 were distributed from a previous repository that has since been deleted and cannot see this feed; install Build 15 once from the DMG, after which updates arrive in the app.
+## Updates
+
+Build 15 is the first build distributed from this repository. From Build 15 on, Luan checks this feed and offers updates in the app through Sparkle.
+
+Builds 10–14 were distributed from a previous repository that has since been deleted, so they cannot receive updates from this feed. If you are on one of those builds, download and install the latest `Luan.dmg` once; later updates then arrive in the app.
